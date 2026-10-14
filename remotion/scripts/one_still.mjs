@@ -1,0 +1,10 @@
+import { bundle } from "@remotion/bundler";
+import { renderStill, selectComposition } from "@remotion/renderer";
+import path from "node:path";
+const [frame, output] = [Number(process.argv[2]), process.argv[3]];
+const browserExecutable = process.env.REMOTION_BROWSER;
+const envVariables = Object.fromEntries(Object.entries(process.env).filter(([k]) => k.startsWith("REMOTION_")));
+const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts"), onProgress: () => {} });
+const composition = await selectComposition({ serveUrl, id: "Clip9x16", browserExecutable, chromiumOptions: { gl: "swangle" }, envVariables });
+await renderStill({ composition, serveUrl, output, frame, imageFormat: "png", browserExecutable, chromiumOptions: { gl: "swangle" }, envVariables });
+console.log("ok", output);
