@@ -1,0 +1,31 @@
+{
+  "name": "video-localisy-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Montage Remotion du clip podcast (9:16, 1080x1920, 30 fps)",
+  "scripts": {
+    "studio": "remotion studio",
+    "typecheck": "tsc",
+    "preview": "remotion render Clip9x16 out/preview_540x960_15fps.mp4 --scale=0.5 --every-nth-frame=2 --crf=23",
+    "stills": "node scripts/stills.mjs",
+    "render": "remotion render Clip9x16 out/clip_remotion.mp4 --codec=h264 --crf=18 --audio-bitrate=320k --x264-preset=slow"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.535",
+    "@remotion/cli": "^4.0.535",
+    "@remotion/google-fonts": "^4.0.535",
+    "@remotion/media-utils": "^4.0.535",
+    "@remotion/player": "^4.0.535",
+    "@remotion/renderer": "^4.0.535",
+    "@remotion/transitions": "^4.0.535",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.535"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.3"
+  }
+}

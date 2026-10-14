@@ -1,0 +1,1877 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1230,
+ "accent": "#FFC94D",
+ "face": {
+  "cx": 0.44,
+  "cy": 0.317
+ },
+ "safe": {
+  "top": 150,
+  "bottom": 250
+ },
+ "footage": {
+  "src": "footage.mp4"
+ },
+ "voice": {
+  "src": "audio/voice_norm.wav",
+  "gain": 1.0
+ },
+ "music": {
+  "src": "audio/music_ducked.wav",
+  "gain": 1.0
+ },
+ "shots": [
+  {
+   "start": 0.0,
+   "end": 4.938,
+   "zoomFrom": 1.12,
+   "zoomTo": 1.06
+  },
+  {
+   "start": 4.938,
+   "end": 8.381,
+   "zoomFrom": 1.0,
+   "zoomTo": 1.03
+  },
+  {
+   "start": 8.381,
+   "end": 13.299,
+   "zoomFrom": 1.1,
+   "zoomTo": 1.12
+  },
+  {
+   "start": 13.299,
+   "end": 17.725,
+   "zoomFrom": 1.04,
+   "zoomTo": 1.08
+  },
+  {
+   "start": 17.725,
+   "end": 20.184,
+   "zoomFrom": 1.12,
+   "zoomTo": 1.13
+  },
+  {
+   "start": 20.184,
+   "end": 21.168,
+   "zoomFrom": 1.15,
+   "zoomTo": 1.15
+  },
+  {
+   "start": 21.168,
+   "end": 24.61,
+   "zoomFrom": 1.0,
+   "zoomTo": 1.04
+  },
+  {
+   "start": 24.61,
+   "end": 25.594,
+   "zoomFrom": 1.08,
+   "zoomTo": 1.08
+  },
+  {
+   "start": 25.594,
+   "end": 26.086,
+   "zoomFrom": 1.13,
+   "zoomTo": 1.14
+  },
+  {
+   "start": 26.086,
+   "end": 31.495,
+   "zoomFrom": 1.04,
+   "zoomTo": 1.09
+  },
+  {
+   "start": 31.495,
+   "end": 35.43,
+   "zoomFrom": 1.08,
+   "zoomTo": 1.11
+  },
+  {
+   "start": 35.43,
+   "end": 37.397,
+   "zoomFrom": 1.0,
+   "zoomTo": 1.04
+  },
+  {
+   "start": 37.397,
+   "end": 39.364,
+   "zoomFrom": 1.1,
+   "zoomTo": 1.13
+  },
+  {
+   "start": 39.364,
+   "end": 41.0,
+   "zoomFrom": 1.13,
+   "zoomTo": 1.17
+  }
+ ],
+ "transitions": [
+  {
+   "at": 21.168,
+   "type": "zoomblur"
+  },
+  {
+   "at": 31.495,
+   "type": "flash"
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.0,
+   "end": 1.44,
+   "words": [
+    {
+     "text": "Le",
+     "start": 0.0,
+     "end": 0.14,
+     "accent": false
+    },
+    {
+     "text": "marketing",
+     "start": 0.14,
+     "end": 0.4,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 0.4,
+     "end": 0.68,
+     "accent": false
+    },
+    {
+     "text": "entreprises,",
+     "start": 0.68,
+     "end": 1.16,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 1.44,
+   "end": 2.52,
+   "words": [
+    {
+     "text": "il",
+     "start": 1.44,
+     "end": 1.52,
+     "accent": false
+    },
+    {
+     "text": "est",
+     "start": 1.52,
+     "end": 1.72,
+     "accent": false
+    },
+    {
+     "text": "majoritairement",
+     "start": 1.72,
+     "end": 2.52,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 2.52,
+   "end": 3.18,
+   "words": [
+    {
+     "text": "éclaté",
+     "start": 2.52,
+     "end": 3.18,
+     "accent": true
+    }
+   ],
+   "style": "big"
+  },
+  {
+   "start": 3.18,
+   "end": 3.98,
+   "words": [
+    {
+     "text": "et",
+     "start": 3.18,
+     "end": 3.4,
+     "accent": false
+    },
+    {
+     "text": "ça",
+     "start": 3.4,
+     "end": 3.52,
+     "accent": false
+    },
+    {
+     "text": "n'a",
+     "start": 3.52,
+     "end": 3.72,
+     "accent": false
+    },
+    {
+     "text": "rien",
+     "start": 3.72,
+     "end": 3.98,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 3.98,
+   "end": 4.38,
+   "words": [
+    {
+     "text": "à",
+     "start": 3.98,
+     "end": 4.14,
+     "accent": false
+    },
+    {
+     "text": "voir",
+     "start": 4.14,
+     "end": 4.22,
+     "accent": false
+    },
+    {
+     "text": "avec",
+     "start": 4.22,
+     "end": 4.38,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 4.38,
+   "end": 4.92,
+   "words": [
+    {
+     "text": "le",
+     "start": 4.38,
+     "end": 4.52,
+     "accent": false
+    },
+    {
+     "text": "budget.",
+     "start": 4.52,
+     "end": 4.68,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 4.92,
+   "end": 5.14,
+   "words": [
+    {
+     "text": "Elles",
+     "start": 4.92,
+     "end": 4.98,
+     "accent": false
+    },
+    {
+     "text": "font",
+     "start": 4.98,
+     "end": 5.14,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 5.14,
+   "end": 6.02,
+   "words": [
+    {
+     "text": "aucune",
+     "start": 5.14,
+     "end": 5.5,
+     "accent": true
+    },
+    {
+     "text": "vidéo.",
+     "start": 5.5,
+     "end": 5.84,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 6.02,
+   "end": 7.1,
+   "words": [
+    {
+     "text": "Elles",
+     "start": 6.02,
+     "end": 6.18,
+     "accent": false
+    },
+    {
+     "text": "utilisent",
+     "start": 6.18,
+     "end": 6.72,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 6.72,
+     "end": 6.86,
+     "accent": false
+    },
+    {
+     "text": "photos",
+     "start": 6.86,
+     "end": 7.1,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 7.1,
+   "end": 8.38,
+   "words": [
+    {
+     "text": "et",
+     "start": 7.1,
+     "end": 7.32,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 7.32,
+     "end": 7.48,
+     "accent": false
+    },
+    {
+     "text": "posts",
+     "start": 7.48,
+     "end": 7.82,
+     "accent": true
+    },
+    {
+     "text": "statiques.",
+     "start": 7.82,
+     "end": 8.3,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 8.38,
+   "end": 8.82,
+   "words": [
+    {
+     "text": "Comme",
+     "start": 8.38,
+     "end": 8.44,
+     "accent": false
+    },
+    {
+     "text": "on",
+     "start": 8.44,
+     "end": 8.52,
+     "accent": false
+    },
+    {
+     "text": "faisait",
+     "start": 8.52,
+     "end": 8.7,
+     "accent": false
+    },
+    {
+     "text": "en",
+     "start": 8.7,
+     "end": 8.82,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 9.64,
+   "end": 10.54,
+   "words": [
+    {
+     "text": "tu",
+     "start": 9.64,
+     "end": 9.7,
+     "accent": false
+    },
+    {
+     "text": "as",
+     "start": 9.7,
+     "end": 9.82,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 9.82,
+     "end": 10.04,
+     "accent": false
+    },
+    {
+     "text": "milliers",
+     "start": 10.04,
+     "end": 10.54,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 10.54,
+   "end": 11.16,
+   "words": [
+    {
+     "text": "de",
+     "start": 10.54,
+     "end": 10.68,
+     "accent": false
+    },
+    {
+     "text": "recherches",
+     "start": 10.68,
+     "end": 11.16,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 11.16,
+   "end": 11.68,
+   "words": [
+    {
+     "text": "tous",
+     "start": 11.16,
+     "end": 11.26,
+     "accent": false
+    },
+    {
+     "text": "les",
+     "start": 11.26,
+     "end": 11.4,
+     "accent": false
+    },
+    {
+     "text": "jours,",
+     "start": 11.4,
+     "end": 11.58,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 11.68,
+   "end": 12.2,
+   "words": [
+    {
+     "text": "toutes",
+     "start": 11.68,
+     "end": 11.8,
+     "accent": false
+    },
+    {
+     "text": "les",
+     "start": 11.8,
+     "end": 11.98,
+     "accent": false
+    },
+    {
+     "text": "heures",
+     "start": 11.98,
+     "end": 12.2,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 12.2,
+   "end": 12.72,
+   "words": [
+    {
+     "text": "sur",
+     "start": 12.2,
+     "end": 12.36,
+     "accent": false
+    },
+    {
+     "text": "les",
+     "start": 12.36,
+     "end": 12.5,
+     "accent": false
+    },
+    {
+     "text": "produits",
+     "start": 12.5,
+     "end": 12.72,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 12.72,
+   "end": 13.34,
+   "words": [
+    {
+     "text": "et",
+     "start": 12.72,
+     "end": 12.9,
+     "accent": false
+    },
+    {
+     "text": "services.",
+     "start": 12.9,
+     "end": 13.14,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 13.34,
+   "end": 13.62,
+   "words": [
+    {
+     "text": "Et",
+     "start": 13.34,
+     "end": 13.36,
+     "accent": false
+    },
+    {
+     "text": "tu",
+     "start": 13.36,
+     "end": 13.44,
+     "accent": false
+    },
+    {
+     "text": "as",
+     "start": 13.44,
+     "end": 13.5,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 13.5,
+     "end": 13.62,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 13.62,
+   "end": 13.94,
+   "words": [
+    {
+     "text": "boîtes",
+     "start": 13.62,
+     "end": 13.76,
+     "accent": true
+    },
+    {
+     "text": "qui",
+     "start": 13.76,
+     "end": 13.86,
+     "accent": false
+    },
+    {
+     "text": "ne",
+     "start": 13.86,
+     "end": 13.94,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 13.94,
+   "end": 14.66,
+   "words": [
+    {
+     "text": "s'intéressent",
+     "start": 13.94,
+     "end": 14.26,
+     "accent": true
+    },
+    {
+     "text": "même",
+     "start": 14.26,
+     "end": 14.44,
+     "accent": false
+    },
+    {
+     "text": "pas",
+     "start": 14.44,
+     "end": 14.66,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 14.66,
+   "end": 15.44,
+   "words": [
+    {
+     "text": "à",
+     "start": 14.66,
+     "end": 14.76,
+     "accent": false
+    },
+    {
+     "text": "savoir",
+     "start": 14.76,
+     "end": 15.06,
+     "accent": false
+    },
+    {
+     "text": "si",
+     "start": 15.06,
+     "end": 15.32,
+     "accent": false
+    },
+    {
+     "text": "elles",
+     "start": 15.32,
+     "end": 15.44,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 15.44,
+   "end": 15.98,
+   "words": [
+    {
+     "text": "apparaissent",
+     "start": 15.44,
+     "end": 15.98,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 15.98,
+   "end": 16.76,
+   "words": [
+    {
+     "text": "quand",
+     "start": 15.98,
+     "end": 16.14,
+     "accent": false
+    },
+    {
+     "text": "leurs",
+     "start": 16.14,
+     "end": 16.36,
+     "accent": false
+    },
+    {
+     "text": "prospects",
+     "start": 16.36,
+     "end": 16.76,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 16.76,
+   "end": 17.66,
+   "words": [
+    {
+     "text": "font",
+     "start": 16.76,
+     "end": 17.02,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 17.02,
+     "end": 17.18,
+     "accent": false
+    },
+    {
+     "text": "recherches.",
+     "start": 17.18,
+     "end": 17.6,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 17.66,
+   "end": 18.02,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 17.66,
+     "end": 17.7,
+     "accent": false
+    },
+    {
+     "text": "as",
+     "start": 17.7,
+     "end": 17.7,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 17.7,
+     "end": 17.84,
+     "accent": false
+    },
+    {
+     "text": "boîtes",
+     "start": 17.84,
+     "end": 18.02,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 18.02,
+   "end": 18.44,
+   "words": [
+    {
+     "text": "qui",
+     "start": 18.02,
+     "end": 18.12,
+     "accent": false
+    },
+    {
+     "text": "ne",
+     "start": 18.12,
+     "end": 18.2,
+     "accent": false
+    },
+    {
+     "text": "savent",
+     "start": 18.2,
+     "end": 18.32,
+     "accent": false
+    },
+    {
+     "text": "pas",
+     "start": 18.32,
+     "end": 18.44,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 18.44,
+   "end": 18.84,
+   "words": [
+    {
+     "text": "du",
+     "start": 18.44,
+     "end": 18.54,
+     "accent": false
+    },
+    {
+     "text": "tout",
+     "start": 18.54,
+     "end": 18.68,
+     "accent": false
+    },
+    {
+     "text": "ce",
+     "start": 18.68,
+     "end": 18.76,
+     "accent": false
+    },
+    {
+     "text": "que",
+     "start": 18.76,
+     "end": 18.84,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 18.84,
+   "end": 19.44,
+   "words": [
+    {
+     "text": "leur",
+     "start": 18.84,
+     "end": 18.96,
+     "accent": false
+    },
+    {
+     "text": "site",
+     "start": 18.96,
+     "end": 19.1,
+     "accent": true
+    },
+    {
+     "text": "internet",
+     "start": 19.1,
+     "end": 19.44,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 19.44,
+   "end": 20.12,
+   "words": [
+    {
+     "text": "leur",
+     "start": 19.44,
+     "end": 19.68,
+     "accent": false
+    },
+    {
+     "text": "apporte.",
+     "start": 19.68,
+     "end": 20.08,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 20.12,
+   "end": 20.470000000000002,
+   "words": [
+    {
+     "text": "Ça",
+     "start": 20.12,
+     "end": 20.24,
+     "accent": false
+    },
+    {
+     "text": "c'est",
+     "start": 20.24,
+     "end": 20.4,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 21.14,
+   "end": 21.92,
+   "words": [
+    {
+     "text": "Combien",
+     "start": 21.14,
+     "end": 21.46,
+     "accent": false
+    },
+    {
+     "text": "de",
+     "start": 21.46,
+     "end": 21.66,
+     "accent": false
+    },
+    {
+     "text": "leads",
+     "start": 21.66,
+     "end": 21.92,
+     "accent": true
+    }
+   ],
+   "style": "question"
+  },
+  {
+   "start": 21.92,
+   "end": 22.56,
+   "words": [
+    {
+     "text": "ou",
+     "start": 21.92,
+     "end": 22.12,
+     "accent": false
+    },
+    {
+     "text": "de",
+     "start": 22.12,
+     "end": 22.32,
+     "accent": false
+    },
+    {
+     "text": "ventes",
+     "start": 22.32,
+     "end": 22.56,
+     "accent": true
+    }
+   ],
+   "style": "question"
+  },
+  {
+   "start": 22.56,
+   "end": 23.64,
+   "words": [
+    {
+     "text": "vous",
+     "start": 22.56,
+     "end": 22.76,
+     "accent": false
+    },
+    {
+     "text": "faites",
+     "start": 22.76,
+     "end": 23.0,
+     "accent": false
+    },
+    {
+     "text": "réellement",
+     "start": 23.0,
+     "end": 23.64,
+     "accent": true
+    }
+   ],
+   "style": "question"
+  },
+  {
+   "start": 23.64,
+   "end": 24.18,
+   "words": [
+    {
+     "text": "grâce",
+     "start": 23.64,
+     "end": 23.9,
+     "accent": false
+    },
+    {
+     "text": "à",
+     "start": 23.9,
+     "end": 24.04,
+     "accent": false
+    },
+    {
+     "text": "votre",
+     "start": 24.04,
+     "end": 24.18,
+     "accent": false
+    }
+   ],
+   "style": "question"
+  },
+  {
+   "start": 24.18,
+   "end": 24.7,
+   "words": [
+    {
+     "text": "site",
+     "start": 24.18,
+     "end": 24.36,
+     "accent": true
+    },
+    {
+     "text": "web ?",
+     "start": 24.36,
+     "end": 24.56,
+     "accent": true
+    }
+   ],
+   "style": "question"
+  },
+  {
+   "start": 24.7,
+   "end": 25.52,
+   "words": [
+    {
+     "text": "Réponse",
+     "start": 24.7,
+     "end": 25.0,
+     "accent": false
+    },
+    {
+     "text": ":",
+     "start": 25.0,
+     "end": 25.24,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 25.52,
+   "end": 25.7,
+   "words": [
+    {
+     "text": "On",
+     "start": 25.52,
+     "end": 25.62,
+     "accent": false
+    },
+    {
+     "text": "n'a",
+     "start": 25.62,
+     "end": 25.7,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 25.7,
+   "end": 26.18,
+   "words": [
+    {
+     "text": "aucune",
+     "start": 25.7,
+     "end": 25.9,
+     "accent": true
+    },
+    {
+     "text": "idée.",
+     "start": 25.9,
+     "end": 26.18,
+     "accent": true
+    }
+   ],
+   "style": "big"
+  },
+  {
+   "start": 26.18,
+   "end": 27.2,
+   "words": [
+    {
+     "text": "parce",
+     "start": 26.18,
+     "end": 26.4,
+     "accent": false
+    },
+    {
+     "text": "que",
+     "start": 26.4,
+     "end": 26.52,
+     "accent": false
+    },
+    {
+     "text": "les",
+     "start": 26.66,
+     "end": 26.8,
+     "accent": false
+    },
+    {
+     "text": "outils",
+     "start": 26.8,
+     "end": 27.08,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 27.2,
+   "end": 28.44,
+   "words": [
+    {
+     "text": "sont",
+     "start": 27.2,
+     "end": 27.36,
+     "accent": false
+    },
+    {
+     "text": "pas",
+     "start": 27.36,
+     "end": 27.48,
+     "accent": false
+    },
+    {
+     "text": "bien",
+     "start": 27.48,
+     "end": 27.58,
+     "accent": false
+    },
+    {
+     "text": "configurés,",
+     "start": 27.58,
+     "end": 28.28,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 28.44,
+   "end": 29.4,
+   "words": [
+    {
+     "text": "pas",
+     "start": 28.44,
+     "end": 28.58,
+     "accent": false
+    },
+    {
+     "text": "de",
+     "start": 28.58,
+     "end": 28.68,
+     "accent": false
+    },
+    {
+     "text": "monitoring,",
+     "start": 28.68,
+     "end": 29.14,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 29.4,
+   "end": 30.24,
+   "words": [
+    {
+     "text": "pas",
+     "start": 29.4,
+     "end": 29.6,
+     "accent": false
+    },
+    {
+     "text": "d'analyse,",
+     "start": 29.6,
+     "end": 30.18,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 30.24,
+   "end": 30.66,
+   "words": [
+    {
+     "text": "c'est",
+     "start": 30.24,
+     "end": 30.4,
+     "accent": false
+    },
+    {
+     "text": "pas",
+     "start": 30.4,
+     "end": 30.58,
+     "accent": false
+    },
+    {
+     "text": "une",
+     "start": 30.58,
+     "end": 30.66,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 30.66,
+   "end": 31.48,
+   "words": [
+    {
+     "text": "question",
+     "start": 30.66,
+     "end": 30.88,
+     "accent": false
+    },
+    {
+     "text": "de",
+     "start": 30.88,
+     "end": 31.04,
+     "accent": false
+    },
+    {
+     "text": "budget.",
+     "start": 31.04,
+     "end": 31.28,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 31.48,
+   "end": 32.04,
+   "words": [
+    {
+     "text": "Tu",
+     "start": 31.48,
+     "end": 31.54,
+     "accent": false
+    },
+    {
+     "text": "peux",
+     "start": 31.54,
+     "end": 31.66,
+     "accent": false
+    },
+    {
+     "text": "avoir",
+     "start": 31.66,
+     "end": 31.8,
+     "accent": false
+    },
+    {
+     "text": "un",
+     "start": 31.8,
+     "end": 32.04,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 32.04,
+   "end": 32.88,
+   "words": [
+    {
+     "text": "super",
+     "start": 32.04,
+     "end": 32.28,
+     "accent": true
+    },
+    {
+     "text": "gros",
+     "start": 32.28,
+     "end": 32.56,
+     "accent": true
+    },
+    {
+     "text": "budget",
+     "start": 32.56,
+     "end": 32.88,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 32.88,
+   "end": 33.84,
+   "words": [
+    {
+     "text": "et",
+     "start": 32.88,
+     "end": 33.28,
+     "accent": false
+    },
+    {
+     "text": "avoir",
+     "start": 33.28,
+     "end": 33.62,
+     "accent": false
+    },
+    {
+     "text": "des",
+     "start": 33.62,
+     "end": 33.84,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 33.84,
+   "end": 35.4,
+   "words": [
+    {
+     "text": "perfs",
+     "start": 33.84,
+     "end": 34.1,
+     "accent": true
+    },
+    {
+     "text": "qui",
+     "start": 34.1,
+     "end": 34.2,
+     "accent": false
+    },
+    {
+     "text": "sont",
+     "start": 34.2,
+     "end": 34.42,
+     "accent": false
+    },
+    {
+     "text": "éclatées,",
+     "start": 34.42,
+     "end": 35.4,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 35.4,
+   "end": 35.98,
+   "words": [
+    {
+     "text": "et",
+     "start": 35.4,
+     "end": 35.48,
+     "accent": false
+    },
+    {
+     "text": "tu",
+     "start": 35.48,
+     "end": 35.62,
+     "accent": false
+    },
+    {
+     "text": "peux",
+     "start": 35.62,
+     "end": 35.76,
+     "accent": false
+    },
+    {
+     "text": "avoir",
+     "start": 35.76,
+     "end": 35.98,
+     "accent": false
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 35.98,
+   "end": 36.44,
+   "words": [
+    {
+     "text": "un",
+     "start": 35.98,
+     "end": 36.16,
+     "accent": false
+    },
+    {
+     "text": "marketing",
+     "start": 36.16,
+     "end": 36.44,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 36.44,
+   "end": 37.62,
+   "words": [
+    {
+     "text": "avec",
+     "start": 36.44,
+     "end": 36.86,
+     "accent": false
+    },
+    {
+     "text": "un",
+     "start": 36.86,
+     "end": 37.12,
+     "accent": false
+    },
+    {
+     "text": "petit",
+     "start": 37.12,
+     "end": 37.3,
+     "accent": true
+    },
+    {
+     "text": "budget",
+     "start": 37.3,
+     "end": 37.62,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 37.62,
+   "end": 38.32,
+   "words": [
+    {
+     "text": "où",
+     "start": 37.62,
+     "end": 37.78,
+     "accent": false
+    },
+    {
+     "text": "tu",
+     "start": 37.78,
+     "end": 37.88,
+     "accent": false
+    },
+    {
+     "text": "as",
+     "start": 37.88,
+     "end": 37.94,
+     "accent": false
+    },
+    {
+     "text": "vraiment",
+     "start": 37.94,
+     "end": 38.32,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 38.32,
+   "end": 38.66,
+   "words": [
+    {
+     "text": "un",
+     "start": 38.32,
+     "end": 38.52,
+     "accent": false
+    },
+    {
+     "text": "vrai",
+     "start": 38.52,
+     "end": 38.66,
+     "accent": true
+    }
+   ],
+   "style": "normal"
+  },
+  {
+   "start": 38.66,
+   "end": 39.75,
+   "words": [
+    {
+     "text": "retour",
+     "start": 38.66,
+     "end": 38.92,
+     "accent": true
+    },
+    {
+     "text": "sur",
+     "start": 38.92,
+     "end": 39.1,
+     "accent": true
+    },
+    {
+     "text": "investissement.",
+     "start": 39.1,
+     "end": 39.54,
+     "accent": true
+    }
+   ],
+   "style": "big"
+  }
+ ],
+ "titles": [
+  {
+   "type": "year",
+   "text": "2015",
+   "start": 8.8,
+   "end": 10.3
+  },
+  {
+   "type": "number",
+   "value": 90,
+   "suffix": " %",
+   "start": 20.38,
+   "end": 21.12,
+   "label": "des boîtes"
+  }
+ ],
+ "list": {
+  "start": 27.1,
+  "end": 30.2,
+  "items": [
+   {
+    "text": "Outils mal configurés",
+    "at": 27.45
+   },
+   {
+    "text": "Pas de monitoring",
+    "at": 28.66
+   },
+   {
+    "text": "Pas d'analyse",
+    "at": 29.62
+   }
+  ]
+ },
+ "progressBar": true,
+ "cta": {
+  "enabled": false,
+  "text": "Suivez pour la suite",
+  "sub": "",
+  "start": 39.7
+ },
+ "sfx": [
+  {
+   "src": "sfx/click.wav",
+   "at": -0.02,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 1.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 2.5,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 2.52,
+   "gain": 0.32
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 3.16,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 3.96,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 4.36,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 4.9,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 5.12,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 6.0,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 7.08,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/riser.wav",
+   "at": 7.85,
+   "gain": 0.35
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 8.36,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 8.78,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/thud.wav",
+   "at": 8.8,
+   "gain": 0.45
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 9.62,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 10.52,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 11.14,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 11.66,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 12.18,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 12.7,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 13.32,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 13.6,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 13.92,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 14.64,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 15.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 15.96,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 16.74,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 17.64,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 18.0,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 18.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 18.82,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/riser.wav",
+   "at": 19.35,
+   "gain": 0.5
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 19.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 20.1,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/impact.wav",
+   "at": 20.38,
+   "gain": 0.6
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 21.048,
+   "gain": 0.35
+  },
+  {
+   "src": "sfx/flash.wav",
+   "at": 21.067999999999998,
+   "gain": 0.4
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 21.12,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 21.9,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 22.54,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 23.62,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 24.16,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 24.68,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 25.5,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/thud.wav",
+   "at": 25.52,
+   "gain": 0.4
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 25.68,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 25.7,
+   "gain": 0.32
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 26.16,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 27.18,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/tick.wav",
+   "at": 27.45,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 28.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/tick.wav",
+   "at": 28.66,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 29.38,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/tick.wav",
+   "at": 29.62,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 30.22,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/riser.wav",
+   "at": 30.495,
+   "gain": 0.5
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 30.64,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/flash.wav",
+   "at": 31.445,
+   "gain": 0.35
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 31.46,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/impact.wav",
+   "at": 31.495,
+   "gain": 0.55
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 32.02,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 32.86,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 33.82,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 35.38,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 35.96,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 36.42,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 37.6,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 38.3,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/thud.wav",
+   "at": 38.32,
+   "gain": 0.35
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 38.64,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 38.66,
+   "gain": 0.32
+  }
+ ]
+}
