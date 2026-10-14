@@ -7,9 +7,10 @@ Montage « code only » d'un extrait de podcast : Remotion (React + TypeScript) 
 ```
 input/                  rushs originaux (jamais modifiés) — rush_01.mp4
 input/music/            (optionnel) dépose ici une musique à utiliser à la place de la composition
+input/reference/        vidéo de référence pour le style des textes
 remotion/               projet Remotion complet
   src/data/edit.json    ← LA décision de montage : sous-titres, mots accentués, punch-ins, titres, liste, SFX, CTA
-  src/components/       Footage (punch-ins), Captions, Titles (2015, 90 %), ListOverlay, ProgressBar, TransitionFx, EndCard
+  src/components/       Footage (punch-ins), Captions + TextStack (sous-titres et compositions), TransitionFx (light leak), ProgressBar (désactivée), EndCard
   public/footage.mp4    plan étalonné 1080×1920 (généré, non versionné)
   public/audio/         voix normalisée −16 LUFS + musique duckée (générés)
   public/sfx/           bruitages synthétisés
@@ -40,11 +41,12 @@ uv venv .venv && source .venv/bin/activate && uv pip install librosa "scenedetec
 
 Tout passe par `remotion/src/data/edit.json` (ou par `tools/edit/build_edit.py` qui le génère depuis la transcription) :
 
-- `captions[]` : groupes de 1 à 4 mots, chaque mot avec `start`/`end` (secondes) et `accent: true` pour la couleur ambre. `style` = `normal` | `question` | `big`.
-- `shots[]` : punch-ins (`zoomFrom` → `zoomTo`, 1.00 = 100 %), coupés sur la grille 122 BPM.
-- `titles[]` : « 2015 » et le compteur « 90 % ». `list` : les trois lignes de la section « liste ».
-- `sfx[]` : fichier, instant, gain. `cta.enabled` : ligne d'appel à l'action sur la fin gelée.
-- `accent` : couleur d'accent. `face` : point d'ancrage des zooms (visage).
+- `captions[]` : sous-titres classiques (1 à 4 mots affichés ensemble, blancs, sans fond, apparition en flou), chaque mot avec `start`/`end` en secondes.
+- `stacks[]` : compositions typographiques des phrases clés : `lines[][]` de mots avec `size` (`xs` 44 px · `s` 56 · `m` 74 · `l` 104 · `xl` 132), `bold`, et `countUp`/`suffix` pour un chiffre animé. Les mots apparaissent un par un à leur timestamp et le bloc se recentre.
+- `text.centerY` : centre vertical de la zone texte (1190 px : sous le menton, jamais sur le visage). `text.sizes` / `text.captionSize` : tailles.
+- `shots[]` : punch-ins (`zoomFrom` → `zoomTo`, 1.00 = 100 %), coupés sur la grille 122 BPM. `transitions[]` : light leaks.
+- `sfx[]` : fichier, instant, gain (whoosh sur chaque composition, pop sur les gros mots, tick sur la liste, riser/impact sur 90 % et le payoff). `cta.enabled` : ligne d'appel à l'action sur la fin gelée.
+- `face` : point d'ancrage des zooms (visage).
 
 Puis relancer un rendu (ci-dessous). Prévisualisation interactive : `cd remotion && npm run studio`.
 
@@ -52,7 +54,7 @@ Puis relancer un rendu (ci-dessous). Prévisualisation interactive : `cd remotio
 
 ```bash
 cd remotion
-npm run preview        # 540×960, 15 fps → remotion/out/preview_540x960_15fps.mp4
+npm run preview        # rendu 30 fps à l'échelle 0,5 puis conversion 15 fps par ffmpeg → preview/preview_540x960_15fps.mp4
 npm run stills         # 8 images clés PNG pleine résolution → ../preview/
 npm run render         # H.264 CRF 18, AAC 320 kb/s → remotion/out/clip_remotion.mp4
 ```

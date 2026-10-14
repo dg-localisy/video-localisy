@@ -1,0 +1,985 @@
+{
+ "text": " La sandie de Houtfine, il se dirigeait tout droit vers l'entreprise et on m'a dit Guillaume, qu'est-ce qu'on communique sur les réseaux sociaux. Il ne sait pas quoi écrire, chaque mot est lourd, il y a des gens qui se battent contre les flammes tous les jours, toutes les heures. Ce qui a simplement été écrit, c'était \"L'entreprise est fermée, prenez soin de vous\". Ça a été relayé par toute la presse belge francophone. J'ai pas du tout utilisé LIA. En fait, LIA au début faisait des projets qui étaient soit beaucoup trop commerciaux et classiques. Et sur les réseaux sociaux, on oublierait toujours que ce soit un réseau social, donc on touche des humains, et que quand on écrit des émotions avec le coeur, c'est ça qui marche le mieux.",
+ "chunks": [
+  {
+   "text": " La",
+   "timestamp": [
+    0,
+    0.16
+   ]
+  },
+  {
+   "text": " sandie",
+   "timestamp": [
+    0.16,
+    0.5
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    0.5,
+    0.6
+   ]
+  },
+  {
+   "text": " Houtfine,",
+   "timestamp": [
+    0.6,
+    0.92
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    0.96,
+    1.06
+   ]
+  },
+  {
+   "text": " se",
+   "timestamp": [
+    1.06,
+    1.12
+   ]
+  },
+  {
+   "text": " dirigeait",
+   "timestamp": [
+    1.12,
+    1.42
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    1.42,
+    1.56
+   ]
+  },
+  {
+   "text": " droit",
+   "timestamp": [
+    1.56,
+    1.76
+   ]
+  },
+  {
+   "text": " vers",
+   "timestamp": [
+    1.76,
+    1.9
+   ]
+  },
+  {
+   "text": " l",
+   "timestamp": [
+    1.9,
+    2
+   ]
+  },
+  {
+   "text": "'entreprise",
+   "timestamp": [
+    2,
+    2.5
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    2.5,
+    2.9
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    2.9,
+    3.06
+   ]
+  },
+  {
+   "text": " m",
+   "timestamp": [
+    3.06,
+    3.16
+   ]
+  },
+  {
+   "text": "'a",
+   "timestamp": [
+    3.16,
+    3.16
+   ]
+  },
+  {
+   "text": " dit",
+   "timestamp": [
+    3.16,
+    3.26
+   ]
+  },
+  {
+   "text": " Guillaume,",
+   "timestamp": [
+    3.26,
+    3.54
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    3.62,
+    3.68
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    3.68,
+    3.7
+   ]
+  },
+  {
+   "text": "-ce",
+   "timestamp": [
+    3.7,
+    3.8
+   ]
+  },
+  {
+   "text": " qu",
+   "timestamp": [
+    3.8,
+    3.88
+   ]
+  },
+  {
+   "text": "'on",
+   "timestamp": [
+    3.88,
+    3.88
+   ]
+  },
+  {
+   "text": " communique",
+   "timestamp": [
+    3.88,
+    4.18
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    4.18,
+    4.36
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    4.36,
+    4.48
+   ]
+  },
+  {
+   "text": " réseaux",
+   "timestamp": [
+    4.48,
+    4.68
+   ]
+  },
+  {
+   "text": " sociaux.",
+   "timestamp": [
+    4.68,
+    4.88
+   ]
+  },
+  {
+   "text": " Il",
+   "timestamp": [
+    5.04,
+    5.12
+   ]
+  },
+  {
+   "text": " ne",
+   "timestamp": [
+    5.12,
+    5.2
+   ]
+  },
+  {
+   "text": " sait",
+   "timestamp": [
+    5.2,
+    5.22
+   ]
+  },
+  {
+   "text": " pas",
+   "timestamp": [
+    5.22,
+    5.38
+   ]
+  },
+  {
+   "text": " quoi",
+   "timestamp": [
+    5.38,
+    5.5
+   ]
+  },
+  {
+   "text": " écrire,",
+   "timestamp": [
+    5.5,
+    5.76
+   ]
+  },
+  {
+   "text": " chaque",
+   "timestamp": [
+    5.94,
+    6.12
+   ]
+  },
+  {
+   "text": " mot",
+   "timestamp": [
+    6.12,
+    6.28
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    6.28,
+    6.4
+   ]
+  },
+  {
+   "text": " lourd,",
+   "timestamp": [
+    6.4,
+    6.68
+   ]
+  },
+  {
+   "text": " il",
+   "timestamp": [
+    6.92,
+    6.98
+   ]
+  },
+  {
+   "text": " y",
+   "timestamp": [
+    6.98,
+    6.98
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    6.98,
+    6.98
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    6.98,
+    7.08
+   ]
+  },
+  {
+   "text": " gens",
+   "timestamp": [
+    7.08,
+    7.18
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    7.18,
+    7.32
+   ]
+  },
+  {
+   "text": " se",
+   "timestamp": [
+    7.32,
+    7.44
+   ]
+  },
+  {
+   "text": " battent",
+   "timestamp": [
+    7.44,
+    7.74
+   ]
+  },
+  {
+   "text": " contre",
+   "timestamp": [
+    7.74,
+    8.02
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    8.02,
+    8.2
+   ]
+  },
+  {
+   "text": " flammes",
+   "timestamp": [
+    8.2,
+    8.54
+   ]
+  },
+  {
+   "text": " tous",
+   "timestamp": [
+    8.54,
+    8.8
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    8.8,
+    8.96
+   ]
+  },
+  {
+   "text": " jours,",
+   "timestamp": [
+    8.96,
+    9.14
+   ]
+  },
+  {
+   "text": " toutes",
+   "timestamp": [
+    9.26,
+    9.32
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    9.32,
+    9.52
+   ]
+  },
+  {
+   "text": " heures.",
+   "timestamp": [
+    9.52,
+    9.86
+   ]
+  },
+  {
+   "text": " Ce",
+   "timestamp": [
+    10.14,
+    10.18
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    10.18,
+    10.3
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    10.3,
+    10.46
+   ]
+  },
+  {
+   "text": " simplement",
+   "timestamp": [
+    10.46,
+    10.94
+   ]
+  },
+  {
+   "text": " été",
+   "timestamp": [
+    10.94,
+    11.26
+   ]
+  },
+  {
+   "text": " écrit,",
+   "timestamp": [
+    11.26,
+    11.54
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    11.72,
+    11.72
+   ]
+  },
+  {
+   "text": "'était",
+   "timestamp": [
+    11.72,
+    11.94
+   ]
+  },
+  {
+   "text": " \"L",
+   "timestamp": [
+    11.94,
+    12.2
+   ]
+  },
+  {
+   "text": "'entreprise",
+   "timestamp": [
+    12.2,
+    12.6
+   ]
+  },
+  {
+   "text": " est",
+   "timestamp": [
+    12.6,
+    12.92
+   ]
+  },
+  {
+   "text": " fermée,",
+   "timestamp": [
+    12.92,
+    13.26
+   ]
+  },
+  {
+   "text": " prenez",
+   "timestamp": [
+    13.5,
+    13.68
+   ]
+  },
+  {
+   "text": " soin",
+   "timestamp": [
+    13.68,
+    13.94
+   ]
+  },
+  {
+   "text": " de",
+   "timestamp": [
+    13.94,
+    14.06
+   ]
+  },
+  {
+   "text": " vous\".",
+   "timestamp": [
+    14.06,
+    14.24
+   ]
+  },
+  {
+   "text": " Ça",
+   "timestamp": [
+    14.42,
+    14.52
+   ]
+  },
+  {
+   "text": " a",
+   "timestamp": [
+    14.52,
+    14.62
+   ]
+  },
+  {
+   "text": " été",
+   "timestamp": [
+    14.62,
+    14.72
+   ]
+  },
+  {
+   "text": " relayé",
+   "timestamp": [
+    14.72,
+    15.16
+   ]
+  },
+  {
+   "text": " par",
+   "timestamp": [
+    15.16,
+    15.4
+   ]
+  },
+  {
+   "text": " toute",
+   "timestamp": [
+    15.4,
+    15.62
+   ]
+  },
+  {
+   "text": " la",
+   "timestamp": [
+    15.62,
+    15.8
+   ]
+  },
+  {
+   "text": " presse",
+   "timestamp": [
+    15.8,
+    16.12
+   ]
+  },
+  {
+   "text": " belge",
+   "timestamp": [
+    16.12,
+    16.46
+   ]
+  },
+  {
+   "text": " francophone.",
+   "timestamp": [
+    16.46,
+    17.08
+   ]
+  },
+  {
+   "text": " J",
+   "timestamp": [
+    17.28,
+    17.34
+   ]
+  },
+  {
+   "text": "'ai",
+   "timestamp": [
+    17.34,
+    17.42
+   ]
+  },
+  {
+   "text": " pas",
+   "timestamp": [
+    17.42,
+    17.6
+   ]
+  },
+  {
+   "text": " du",
+   "timestamp": [
+    17.6,
+    17.72
+   ]
+  },
+  {
+   "text": " tout",
+   "timestamp": [
+    17.72,
+    17.88
+   ]
+  },
+  {
+   "text": " utilisé",
+   "timestamp": [
+    17.88,
+    18.36
+   ]
+  },
+  {
+   "text": " LIA.",
+   "timestamp": [
+    18.36,
+    18.58
+   ]
+  },
+  {
+   "text": " En",
+   "timestamp": [
+    18.76,
+    18.76
+   ]
+  },
+  {
+   "text": " fait,",
+   "timestamp": [
+    18.76,
+    18.84
+   ]
+  },
+  {
+   "text": " LIA",
+   "timestamp": [
+    18.94,
+    19.02
+   ]
+  },
+  {
+   "text": " au",
+   "timestamp": [
+    19.02,
+    19.12
+   ]
+  },
+  {
+   "text": " début",
+   "timestamp": [
+    19.12,
+    19.28
+   ]
+  },
+  {
+   "text": " faisait",
+   "timestamp": [
+    19.28,
+    19.5
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    19.5,
+    19.7
+   ]
+  },
+  {
+   "text": " projets",
+   "timestamp": [
+    19.7,
+    19.92
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    19.92,
+    20.06
+   ]
+  },
+  {
+   "text": " étaient",
+   "timestamp": [
+    20.06,
+    20.2
+   ]
+  },
+  {
+   "text": " soit",
+   "timestamp": [
+    20.2,
+    20.38
+   ]
+  },
+  {
+   "text": " beaucoup",
+   "timestamp": [
+    20.38,
+    20.7
+   ]
+  },
+  {
+   "text": " trop",
+   "timestamp": [
+    20.7,
+    20.86
+   ]
+  },
+  {
+   "text": " commerciaux",
+   "timestamp": [
+    20.86,
+    21.34
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    21.34,
+    21.66
+   ]
+  },
+  {
+   "text": " classiques.",
+   "timestamp": [
+    21.66,
+    22.12
+   ]
+  },
+  {
+   "text": " Et",
+   "timestamp": [
+    22.3,
+    22.34
+   ]
+  },
+  {
+   "text": " sur",
+   "timestamp": [
+    22.34,
+    22.52
+   ]
+  },
+  {
+   "text": " les",
+   "timestamp": [
+    22.52,
+    22.68
+   ]
+  },
+  {
+   "text": " réseaux",
+   "timestamp": [
+    22.68,
+    22.86
+   ]
+  },
+  {
+   "text": " sociaux,",
+   "timestamp": [
+    22.86,
+    23.14
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    23.2,
+    23.26
+   ]
+  },
+  {
+   "text": " oublierait",
+   "timestamp": [
+    23.26,
+    23.58
+   ]
+  },
+  {
+   "text": " toujours",
+   "timestamp": [
+    23.58,
+    23.88
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    23.88,
+    24.06
+   ]
+  },
+  {
+   "text": " ce",
+   "timestamp": [
+    24.06,
+    24.18
+   ]
+  },
+  {
+   "text": " soit",
+   "timestamp": [
+    24.18,
+    24.28
+   ]
+  },
+  {
+   "text": " un",
+   "timestamp": [
+    24.28,
+    24.3
+   ]
+  },
+  {
+   "text": " réseau",
+   "timestamp": [
+    24.3,
+    24.54
+   ]
+  },
+  {
+   "text": " social,",
+   "timestamp": [
+    24.54,
+    25.1
+   ]
+  },
+  {
+   "text": " donc",
+   "timestamp": [
+    25.28,
+    25.4
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    25.4,
+    25.54
+   ]
+  },
+  {
+   "text": " touche",
+   "timestamp": [
+    25.54,
+    25.68
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    25.68,
+    25.86
+   ]
+  },
+  {
+   "text": " humains,",
+   "timestamp": [
+    25.86,
+    26.26
+   ]
+  },
+  {
+   "text": " et",
+   "timestamp": [
+    26.36,
+    26.38
+   ]
+  },
+  {
+   "text": " que",
+   "timestamp": [
+    26.38,
+    26.5
+   ]
+  },
+  {
+   "text": " quand",
+   "timestamp": [
+    26.5,
+    26.68
+   ]
+  },
+  {
+   "text": " on",
+   "timestamp": [
+    26.68,
+    26.86
+   ]
+  },
+  {
+   "text": " écrit",
+   "timestamp": [
+    26.86,
+    27.06
+   ]
+  },
+  {
+   "text": " des",
+   "timestamp": [
+    27.06,
+    27.24
+   ]
+  },
+  {
+   "text": " émotions",
+   "timestamp": [
+    27.24,
+    27.68
+   ]
+  },
+  {
+   "text": " avec",
+   "timestamp": [
+    27.68,
+    27.84
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    27.84,
+    28
+   ]
+  },
+  {
+   "text": " coeur,",
+   "timestamp": [
+    28,
+    28.2
+   ]
+  },
+  {
+   "text": " c",
+   "timestamp": [
+    28.32,
+    28.38
+   ]
+  },
+  {
+   "text": "'est",
+   "timestamp": [
+    28.38,
+    28.4
+   ]
+  },
+  {
+   "text": " ça",
+   "timestamp": [
+    28.4,
+    28.58
+   ]
+  },
+  {
+   "text": " qui",
+   "timestamp": [
+    28.58,
+    28.7
+   ]
+  },
+  {
+   "text": " marche",
+   "timestamp": [
+    28.7,
+    28.9
+   ]
+  },
+  {
+   "text": " le",
+   "timestamp": [
+    28.9,
+    29.08
+   ]
+  },
+  {
+   "text": " mieux.",
+   "timestamp": [
+    29.08,
+    29.16
+   ]
+  }
+ ]
+}

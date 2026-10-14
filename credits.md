@@ -3,6 +3,9 @@
 ## Image
 - Rush : `input/rush_01.mp4`, fourni par le client (copie intacte de `download_1.mp4`, 720×1280, 39,85 s). Les versions étalonnées sont des copies (`work/proxies/`, `remotion/public/footage.mp4`).
 
+## Référence de style
+- `input/reference/reference_download_2.mp4`, fournie par le client : modèle pour le style des textes (blanc sans fond, apparition en flou, compositions à tailles mixtes). Non utilisée dans le montage.
+
 ## Typographie
 - **Figtree** (Erik Kennedy), Google Fonts, licence SIL Open Font License 1.1. Chargée via `@remotion/google-fonts/Figtree` (graisses 400 → 900, latin + latin-ext). Aucune autre police.
 

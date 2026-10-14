@@ -3,8 +3,6 @@ import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig } from "remot
 import type { Edit } from "./lib/types";
 import { Footage } from "./components/Footage";
 import { Captions } from "./components/Captions";
-import { Titles } from "./components/Titles";
-import { ListOverlay } from "./components/ListOverlay";
 import { ProgressBar } from "./components/ProgressBar";
 import { TransitionFx } from "./components/TransitionFx";
 import { EndCard } from "./components/EndCard";
@@ -16,8 +14,6 @@ export const Clip: React.FC<{ edit: Edit }> = ({ edit }) => {
     <AbsoluteFill style={{ backgroundColor: "#0b0a0e", fontFamily: FONT }}>
       <Footage edit={edit} />
       <TransitionFx edit={edit} />
-      {edit.list ? <ListOverlay edit={edit} /> : null}
-      <Titles edit={edit} />
       <Captions edit={edit} />
       {edit.progressBar ? <ProgressBar edit={edit} /> : null}
       {edit.cta.enabled ? <EndCard edit={edit} /> : null}

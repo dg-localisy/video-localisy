@@ -20,11 +20,11 @@ export const Footage: React.FC<{ edit: Edit }> = ({ edit }) => {
   const settle = interpolate(sinceCut, [0, 8 / fps], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp", easing: EASE_OUT });
   zoom *= 1 + 0.02 * settle;
 
-  // transitions: zoom-blur (outgoing shot zooms + blurs, incoming settles from blur) / flash (handled in TransitionFx)
+  // transitions: the outgoing shot zooms + blurs, the incoming one settles from blur (light leak drawn in TransitionFx)
   let blur = 0;
   let extraScale = 1;
   for (const tr of edit.transitions) {
-    if (tr.type !== "zoomblur") continue;
+    if (tr.type !== "zoomblur" && tr.type !== "lightleak") continue;
     const d = t - tr.at;
     if (d < 0 && d > -4 / fps) {
       const k = interpolate(d, [-4 / fps, 0], [0, 1]);

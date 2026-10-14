@@ -62,24 +62,24 @@ Si tu préfères un vrai morceau, dépose-le dans `./input/music/` et je recale 
 
 ## 4. Structure proposée (41,0 s au total, 1 230 images)
 
-Rythme : cuts secs = changements de niveau de punch-in (100 → 115 %) sur les temps ; **2 transitions seulement** (zoom-blur à 21,1 s sur la question, flash à 31,5 s sur le payoff).
+Rythme : cuts secs = changements de niveau de punch-in (100 → 115 %) sur les temps ; **2 transitions seulement** (light leaks à 21,1 s sur la question et à 31,5 s sur le payoff).
 
 | Section | Temps | Ce qu'on voit | Son |
 |---|---|---|---|
-| **Hook** | 0,0 – 4,9 s | Démarrage sur la phrase choc, cadrage à 112 % qui se relâche doucement vers 106 % (mouvement dès la 1ʳᵉ image). Sous-titres dès 0,0 s ; « ÉCLATÉ » seul, en grand, à 2,5 s ; « budget » en accent. | Nappe + sub + charleys légers, pas encore de kick. |
-| **Symptômes** | 4,9 – 8,4 s | Punch-out à 100 % sur le temps. « aucune vidéo », « posts statiques » en accent. | Kick half-time + clap entrent. |
-| **2015** | 8,4 – 13,3 s | Punch-in 110 %. Titre géant « 2015 » (Figtree ExtraBold, −0,03 em, soulignement accent qui se trace) en haut à droite, 8,8 → 10,3 s. Puis « milliers de recherches » / « tous les jours, toutes les heures » en sous-titres rapides. | Riser 1 s + thud sur l'apparition de 2015. |
-| **Les boîtes** | 13,3 – 20,1 s | Deux plans : 104 → 108 % puis 112 %. « apparaissent », « site internet » en accent. | Groove complet. |
-| **90 %** | 20,1 – 21,1 s | Punch-in 115 %. Compteur animé 0 → 90 % géant en accent, « des boîtes » dessous, 20,4 → 21,1 s. | Riser 1,1 s → impact. La batterie se tait. |
-| **Question** | 21,1 – 24,6 s | Transition zoom-blur. Retour à 100 %. Sous-titres en style « question » (plus grands, barre accent à gauche) : « Combien de leads ou de ventes / vous faites réellement / grâce à votre site web ? » | Flash + whoosh. Batterie plus dense. |
-| **Réponse** | 24,6 – 26,1 s | 108 % puis 113 % sur « AUCUNE IDÉE » en grand. | Drop de batterie sur « Réponse : », thud sur « aucune idée ». |
-| **Liste** | 26,1 – 31,5 s | 104 → 109 %. Liste qui se construit en haut à droite : ◼ Outils mal configurés · ◼ Pas de monitoring · ◼ Pas d'analyse (une ligne par mot prononcé). « question de BUDGET » clôt la section. | Tick sur chaque ligne. |
-| **Payoff** | 31,5 – 39,5 s | Flash blanc sur « Tu peux avoir ». 108 → 111 %, puis 100 → 104 %, puis 110 → 113 % sur « vraiment ». « super gros budget » / « perfs éclatées » / « petit budget » / « VRAI RETOUR SUR INVESTISSEMENT » en accent. | Riser → impact sur 31,5 s, cordes + kalimba, énergie max. |
+| **Hook** | 0,0 – 4,9 s | Démarrage sur la phrase choc, cadrage à 112 % qui se relâche doucement vers 106 % (mouvement dès la 1ʳᵉ image). Sous-titres dès 0,0 s ; composition « il est majoritairement / **éclaté** » (132 px) à 1,4 s. | Nappe + sub + charleys légers, pas encore de kick. Whoosh sur la composition. |
+| **Symptômes** | 4,9 – 8,4 s | Punch-out à 100 % sur le temps. Composition « Elles font / **aucune vidéo.** », puis sous-titres. | Kick half-time + clap entrent. |
+| **2015** | 8,4 – 13,3 s | Punch-in 110 %. Composition « Comme on faisait en / **2015** » sous le menton (2015 en 132 px ExtraBold), puis « tu as des **milliers** / de recherches », puis sous-titres rapides. | Whoosh + thud sur 2015. |
+| **Les boîtes** | 13,3 – 20,1 s | Deux plans : 104 → 108 % puis 112 %. Sous-titres classiques, rythme rapide. | Groove complet. |
+| **90 %** | 20,1 – 21,1 s | Punch-in 115 %. Composition « Ça c'est / **90 %** » avec compteur animé 0 → 90 en 270 ms. | Riser 1 s → impact. La batterie se tait. |
+| **Question** | 21,1 – 24,6 s | Light leak. Retour à 100 %. Composition « Combien de **leads** / ou de **ventes** / vous faites réellement », puis « grâce à votre » / « site web ? ». | Flash + whoosh. Batterie plus dense. |
+| **Réponse** | 24,6 – 26,1 s | 108 % puis 113 %. « Réponse : » puis composition « On n'a / **aucune idée.** » (132 px). | Drop de batterie sur « Réponse : », thud sur « aucune idée ». |
+| **Liste** | 26,1 – 31,5 s | 104 → 109 %. Composition en 4 lignes qui se construit sous le menton : les outils / sont pas bien **configurés,** / pas de **monitoring,** / pas **d'analyse,** puis « c'est pas une question de / **budget.** ». | Tick sur chaque ligne, thud sur budget. |
+| **Payoff** | 31,5 – 39,5 s | Light leak sur « Tu peux avoir ». 108 → 111 %, puis 100 → 104 %, puis 110 → 113 % sur « vraiment ». Compositions « Tu peux avoir un / **super gros budget** », « avec un / **petit budget** », « un vrai / **retour** sur / **investissement.** ». | Riser → impact sur 31,5 s, cordes + kalimba, énergie max. |
 | **Fin** | 39,5 – 41,0 s | Dernière image gelée avec lent push 113 → 117 %, sous-titres sortis à 39,75 s. CTA optionnel (désactivé par défaut, voir question 3). | Fade-out musique 1,4 s. |
 
-Habillage permanent : barre de progression fine (5 px, accent) juste sous la zone sûre haute (y = 160 px). Zones sûres respectées : rien sous y = 1 670 px, rien au-dessus de y = 150 px. Sous-titres centrés à y ≈ 1 050–1 250 px, Figtree SemiBold 66 px (ExtraBold pour les accents ; 96 px capitales pour les mots isolés), fond sombre arrondi semi-transparent (62 %) avec flou, groupes de 1 à 4 mots, mot courant à 100 % / mots à venir à 72 %, entrée scale 0,85 → 1 en 230 ms avec `cubic-bezier(0.22, 1, 0.36, 1)`, sortie 130 ms.
+Textes (v2, d'après la vidéo de référence `input/reference/reference_download_2.mp4`) : blanc, Figtree, **sans fond**, ombre portée douce, toujours **sous le menton** (zone centrée à y = 1 190 px, jamais sur le visage). Deux registres : sous-titres classiques de 1 à 4 mots (56 px, Medium) qui apparaissent d'un bloc avec un flou qui se résorbe en 170 ms ; compositions typographiques pour les phrases clés (12 dans le clip) où les mots arrivent un par un à leur timestamp, en tailles mixtes (petits mots de liaison 56 px, mots forts 104 à 132 px en Bold/ExtraBold, tracking −0,02 em), le bloc se recentrant à chaque ajout. Chiffre « 90 % » animé en compteur. Pas de barre de progression, pas de couleur d'accent : la hiérarchie se fait par la taille et la graisse, comme dans la référence.
 
-Look : étalonnage unique (magenta légèrement retiré des hautes lumières, saturation −10 %, courbe de contraste douce, vignettage léger), grain fin ≈ 4 %. Couleur d'accent : ambre `#FFC94D` (complémentaire du fond rose, lisible sur le fond sombre des sous-titres).
+Look : étalonnage unique (magenta légèrement retiré des hautes lumières, saturation −10 %, courbe de contraste douce, vignettage léger), grain fin ≈ 4 %. Texte blanc uniquement (v2).
 
 Son : voix nettoyée (passe-haut 70 Hz, réduction de bruit légère, de-esser léger) et normalisée à **−16 LUFS** (mesuré : −15,9 LUFS, pic vrai −2,3 dBTP). Musique alignée sur la voix puis **ducking −15 dB** pendant la parole, attaque 15 ms, retour 300 ms ; mesuré pendant la parole : −30,9 LUFS, soit 15 dB sous la voix. SFX synthétisés (whoosh, click, pop, tick, riser, impact, thud, flash) à −10 / −16 dB sous la voix : ils se sentent, ils ne s'entendent pas.
 
@@ -89,5 +89,7 @@ Son : voix nettoyée (passe-haut 70 Hz, réduction de bruit légère, de-esser l
 2. **Ambiance / look** — (A, recommandé) « moderne et net » : fond rose conservé, légère désaturation, contraste doux, accent ambre ; (B) « chaleureux » : réchauffer les hautes lumières, accent blanc cassé. Le fond magenta se prête mal à un look sombre, je ne le propose pas.
 3. **CTA de fin** — (A, recommandé) pas de CTA, fin propre sur « retour sur investissement » ; (B) une ligne CTA sur l'image gelée (texte à me donner, ex. « Suivez pour la suite » ou un @handle). Le composant existe déjà (`cta.enabled` dans `remotion/src/data/edit.json`).
 4. **Musique** — garder la composition originale (122 BPM) ou déposer un morceau dans `./input/music/` ?
+
+Note de rendu : la première preview 15 fps avait été produite avec l'option « 1 image sur 2 » de Remotion, qui raccourcit l'audio (38,7 s au lieu de 41 s) et désynchronise la voix. La preview est désormais rendue à 30 fps puis convertie en 15 fps par ffmpeg ; décalage mesuré voix/original : +0,03 s (1 image).
 
 Tant que tu n'as pas validé, je ne rends qu'en basse résolution (540×960, 15 fps) et des images clés PNG dans `./preview`.
