@@ -83,6 +83,19 @@ Look : étalonnage unique (magenta légèrement retiré des hautes lumières, sa
 
 Son : voix nettoyée (passe-haut 70 Hz, réduction de bruit légère, de-esser léger) et normalisée à **−16 LUFS** (mesuré : −15,9 LUFS, pic vrai −2,3 dBTP). Musique alignée sur la voix puis **ducking −15 dB** pendant la parole, attaque 15 ms, retour 300 ms ; mesuré pendant la parole : −30,9 LUFS, soit 15 dB sous la voix. SFX synthétisés (whoosh, click, pop, tick, riser, impact, thud, flash) à −10 / −16 dB sous la voix : ils se sentent, ils ne s'entendent pas.
 
+## 4b. Plans de coupe (v3)
+
+Aucune banque de stock n'est joignable depuis cet environnement (Pexels, Pixabay, Coverr, Mixkit, Videvo, Wikimedia : connexion refusée), l'export Canva est bloqué, et le téléchargement binaire depuis ton Drive ne passe pas (le dossier « Vidéos/ photos banque d'image » ne contient de toute façon que des photos sans rapport). Les 4 inserts sont donc **fabriqués en motion design dans Remotion**, dans l'esprit des mockups de la référence, et illustrent littéralement les mots :
+
+| Insert | Temps | Ce qu'on voit | Mots illustrés |
+|---|---|---|---|
+| `feed` | 6,02 – 8,38 s | Téléphone, fil de posts photo qui défile lentement | « des photos et des posts statiques » |
+| `search` | 9,64 – 13,34 s | Barre de recherche où 5 requêtes locales se tapent toutes seules, suggestions, compteur qui grimpe | « des milliers de recherches tous les jours, toutes les heures » |
+| `website` | 17,66 – 20,12 s | Site web en wireframe, puis Visites ? · Leads ? · Ventes ? | « ce que leur site internet leur apporte » |
+| `dashboard` | 28,44 – 30,24 s | Tableau de bord analytics vide, « Aucune donnée », Monitoring inactif, Analyse aucune | « pas de monitoring, pas d'analyse » |
+
+Les sous-titres restent affichés par-dessus, comme dans la référence. Chaque insert a un champ `src` dans `remotion/src/data/edit.json` : un vrai plan déposé dans `remotion/public/` et référencé là remplace le motion design sans rien changer d'autre. Whoosh à chaque coupe, clics sur les requêtes, pops sur les « ? ».
+
 ## 5. Questions avant le rendu final (2 options max à chaque fois)
 
 1. **Hook** — (A, recommandé) ordre chronologique : la phrase « Le marketing des entreprises est majoritairement ÉCLATÉ » ouvre la vidéo avec le punch-in et le mot géant ; (B) cold open : commencer par la question « Combien de leads ou de ventes vous faites réellement grâce à votre site web ? » (21,1 → 24,6 s), flash, puis reprendre au début. B est plus « clickbait », A est plus fidèle au propos et évite la répétition de la question.

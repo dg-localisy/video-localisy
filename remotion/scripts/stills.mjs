@@ -12,11 +12,11 @@ const fps = 30;
 const frames = [
   ["01_hook_0.6s", 0.6],
   ["02_eclate_2.9s", 2.9],
-  ["03_2015_9.3s", 9.3],
-  ["04_90pct_20.9s", 20.9],
-  ["05_question_22.6s", 22.6],
-  ["06_aucune_idee_26.0s", 26.0],
-  ["07_liste_29.9s", 29.9],
+  ["03_feed_7.0s", 7.0],
+  ["04_search_11.3s", 11.3],
+  ["05_website_19.8s", 19.8],
+  ["06_90pct_20.9s", 20.9],
+  ["07_dashboard_29.9s", 29.9],
   ["08_payoff_39.2s", 39.2],
 ];
 const localShell = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";

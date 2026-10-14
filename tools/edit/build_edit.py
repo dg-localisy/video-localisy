@@ -116,6 +116,14 @@ for (b, z0, z1), nxt in zip(shot_beats, shot_beats[1:] + [(None, 0, 0)]):
     shots.append({"start": 0.0 if b == 0 else beat(b), "end": 41.0 if nxt[0] is None else beat(nxt[0]), "zoomFrom": z0, "zoomTo": z1})
 transitions = [{"at": beat(43), "type": "lightleak"}, {"at": beat(64), "type": "lightleak"}]
 
+# ---- 3b. b-roll inserts: generated motion graphics, literal to the words (set "src" to use a real clip instead)
+broll = [
+    {"id": "feed", "start": W[21]["start"], "end": W[29]["start"], "src": None},        # Elles utilisent des photos et des posts statiques.
+    {"id": "search", "start": W[35]["start"], "end": W[52]["start"], "src": None},      # des milliers de recherches tous les jours, toutes les heures
+    {"id": "website", "start": W[73]["start"], "end": W[90]["start"], "src": None},     # ce que leur site internet leur apporte
+    {"id": "dashboard", "start": W[128]["start"], "end": W[136]["start"], "src": None}, # pas de monitoring, pas d'analyse
+]
+
 # ---- 4. sound design cues
 sfx = []
 for st in stacks:
@@ -134,6 +142,11 @@ sfx += [
     {"src": "sfx/riser.wav", "at": beat(64) - 1.0, "gain": 0.45}, {"src": "sfx/impact.wav", "at": beat(64), "gain": 0.5}, {"src": "sfx/flash.wav", "at": beat(64) - 0.05, "gain": 0.3},  # payoff
     {"src": "sfx/thud.wav", "at": 39.08, "gain": 0.35},                                         # investissement.
 ]
+for b in broll:                                                                                   # cut to each insert
+    sfx.append({"src": "sfx/whoosh.wav", "at": round(b["start"] - 0.08, 3), "gain": 0.3})
+    sfx.append({"src": "sfx/whoosh.wav", "at": round(b["end"] - 0.1, 3), "gain": 0.22})
+sfx += [{"src": "sfx/click.wav", "at": round(W[35]["start"] + 0.1 + k * 0.7, 3), "gain": 0.12} for k in range(5)]   # queries typing
+sfx += [{"src": "sfx/pop.wav", "at": t, "gain": 0.16} for t in (18.96, 19.44, 19.72)]                                # ?, ?, ?
 edit = {
     "fps": FPS, "width": 1080, "height": 1920, "durationInFrames": int(round(41.0 * FPS)),
     "accent": "#FFFFFF",
@@ -143,7 +156,7 @@ edit = {
     "footage": {"src": "footage.mp4"},
     "voice": {"src": "audio/voice_norm.wav", "gain": 1.0},
     "music": {"src": "audio/music_ducked.wav", "gain": 1.0},
-    "shots": shots, "transitions": transitions, "captions": captions, "stacks": stacks,
+    "shots": shots, "transitions": transitions, "captions": captions, "stacks": stacks, "broll": broll,
     "progressBar": False,
     "cta": {"enabled": False, "text": "Suivez pour la suite", "sub": "", "start": 39.7},
     "sfx": sorted(sfx, key=lambda s: s["at"]),

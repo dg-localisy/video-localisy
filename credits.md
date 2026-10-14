@@ -6,6 +6,9 @@
 ## Référence de style
 - `input/reference/reference_download_2.mp4`, fournie par le client : modèle pour le style des textes (blanc sans fond, apparition en flou, compositions à tailles mixtes). Non utilisée dans le montage.
 
+## Plans de coupe
+- Les 4 inserts (feed, recherche, site web, dashboard) sont des animations générées par le projet Remotion (`remotion/src/components/broll/`) : aucune image ni vidéo tierce. Les banques de stock, Canva et le téléchargement Drive ne sont pas accessibles depuis l'environnement de montage.
+
 ## Typographie
 - **Figtree** (Erik Kennedy), Google Fonts, licence SIL Open Font License 1.1. Chargée via `@remotion/google-fonts/Figtree` (graisses 400 → 900, latin + latin-ext). Aucune autre police.
 

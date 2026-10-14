@@ -21,6 +21,9 @@ export type Transition = { at: number; type: "lightleak" | "zoomblur" | "flash" 
 
 export type SfxCue = { src: string; at: number; gain: number };
 
+/** B-roll insert: a generated motion graphic (id) or, when src is set, a real clip from public/. */
+export type Broll = { id: "feed" | "search" | "website" | "dashboard"; start: number; end: number; src: string | null };
+
 export type Edit = {
   fps: number;
   width: number;
@@ -37,6 +40,7 @@ export type Edit = {
   transitions: Transition[];
   captions: CaptionGroup[];
   stacks: Stack[];
+  broll: Broll[];
   progressBar: boolean;
   cta: { enabled: boolean; text: string; sub?: string; start: number };
   sfx: SfxCue[];

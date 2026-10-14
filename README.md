@@ -10,7 +10,7 @@ input/music/            (optionnel) dépose ici une musique à utiliser à la pl
 input/reference/        vidéo de référence pour le style des textes
 remotion/               projet Remotion complet
   src/data/edit.json    ← LA décision de montage : sous-titres, mots accentués, punch-ins, titres, liste, SFX, CTA
-  src/components/       Footage (punch-ins), Captions + TextStack (sous-titres et compositions), TransitionFx (light leak), ProgressBar (désactivée), EndCard
+  src/components/       Footage (punch-ins), Broll + broll/ (4 inserts motion design), Captions + TextStack (sous-titres et compositions), TransitionFx (light leak), ProgressBar (désactivée), EndCard
   public/footage.mp4    plan étalonné 1080×1920 (généré, non versionné)
   public/audio/         voix normalisée −16 LUFS + musique duckée (générés)
   public/sfx/           bruitages synthétisés
@@ -46,6 +46,7 @@ Tout passe par `remotion/src/data/edit.json` (ou par `tools/edit/build_edit.py` 
 - `text.centerY` : centre vertical de la zone texte (1190 px : sous le menton, jamais sur le visage). `text.sizes` / `text.captionSize` : tailles.
 - `shots[]` : punch-ins (`zoomFrom` → `zoomTo`, 1.00 = 100 %), coupés sur la grille 122 BPM. `transitions[]` : light leaks.
 - `sfx[]` : fichier, instant, gain (whoosh sur chaque composition, pop sur les gros mots, tick sur la liste, riser/impact sur 90 % et le payoff). `cta.enabled` : ligne d'appel à l'action sur la fin gelée.
+- `broll[]` : les 4 inserts (`feed`, `search`, `website`, `dashboard`) avec `start`/`end`. Mettre un chemin dans `src` (ex. `broll/recherche.mp4` placé dans `remotion/public/`) pour remplacer le motion design par un vrai plan, recadré en 9:16.
 - `face` : point d'ancrage des zooms (visage).
 
 Puis relancer un rendu (ci-dessous). Prévisualisation interactive : `cd remotion && npm run studio`.

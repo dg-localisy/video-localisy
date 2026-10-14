@@ -2,6 +2,7 @@ import React from "react";
 import { AbsoluteFill, Audio, Sequence, staticFile, useVideoConfig } from "remotion";
 import type { Edit } from "./lib/types";
 import { Footage } from "./components/Footage";
+import { Broll } from "./components/Broll";
 import { Captions } from "./components/Captions";
 import { ProgressBar } from "./components/ProgressBar";
 import { TransitionFx } from "./components/TransitionFx";
@@ -13,6 +14,7 @@ export const Clip: React.FC<{ edit: Edit }> = ({ edit }) => {
   return (
     <AbsoluteFill style={{ backgroundColor: "#0b0a0e", fontFamily: FONT }}>
       <Footage edit={edit} />
+      <Broll edit={edit} />
       <TransitionFx edit={edit} />
       <Captions edit={edit} />
       {edit.progressBar ? <ProgressBar edit={edit} /> : null}

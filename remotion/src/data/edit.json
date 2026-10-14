@@ -1406,6 +1406,32 @@
    "end": 39.75
   }
  ],
+ "broll": [
+  {
+   "id": "feed",
+   "start": 6.02,
+   "end": 8.38,
+   "src": null
+  },
+  {
+   "id": "search",
+   "start": 9.64,
+   "end": 13.34,
+   "src": null
+  },
+  {
+   "id": "website",
+   "start": 17.66,
+   "end": 20.12,
+   "src": null
+  },
+  {
+   "id": "dashboard",
+   "start": 28.44,
+   "end": 30.24,
+   "src": null
+  }
+ ],
  "progressBar": false,
  "cta": {
   "enabled": false,
@@ -1441,6 +1467,16 @@
   },
   {
    "src": "sfx/whoosh.wav",
+   "at": 5.94,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 8.28,
+   "gain": 0.22
+  },
+  {
+   "src": "sfx/whoosh.wav",
    "at": 8.32,
    "gain": 0.22
   },
@@ -1456,8 +1492,18 @@
   },
   {
    "src": "sfx/whoosh.wav",
+   "at": 9.56,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/whoosh.wav",
    "at": 9.58,
    "gain": 0.22
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 9.74,
+   "gain": 0.12
   },
   {
    "src": "sfx/pop.wav",
@@ -1465,9 +1511,59 @@
    "gain": 0.2
   },
   {
+   "src": "sfx/click.wav",
+   "at": 10.44,
+   "gain": 0.12
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 11.14,
+   "gain": 0.12
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 11.84,
+   "gain": 0.12
+  },
+  {
+   "src": "sfx/click.wav",
+   "at": 12.54,
+   "gain": 0.12
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 13.24,
+   "gain": 0.22
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 17.58,
+   "gain": 0.3
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 18.96,
+   "gain": 0.16
+  },
+  {
    "src": "sfx/riser.wav",
    "at": 19.35,
    "gain": 0.45
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 19.44,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/pop.wav",
+   "at": 19.72,
+   "gain": 0.16
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 20.02,
+   "gain": 0.22
   },
   {
    "src": "sfx/whoosh.wav",
@@ -1540,6 +1636,11 @@
    "gain": 0.3
   },
   {
+   "src": "sfx/whoosh.wav",
+   "at": 28.36,
+   "gain": 0.3
+  },
+  {
    "src": "sfx/pop.wav",
    "at": 28.66,
    "gain": 0.2
@@ -1558,6 +1659,11 @@
    "src": "sfx/tick.wav",
    "at": 29.58,
    "gain": 0.3
+  },
+  {
+   "src": "sfx/whoosh.wav",
+   "at": 30.14,
+   "gain": 0.22
   },
   {
    "src": "sfx/whoosh.wav",
